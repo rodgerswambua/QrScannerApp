@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display All"
+        android:id="@+id/showAllButton"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/addStudentButton"
+        android:layout_alignStart="@+id/addStudentButton"
+        android:layout_alignRight="@+id/addStudentButton"
+        android:layout_alignEnd="@+id/addStudentButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:id="@+id/addStudentButton"
+        android:layout_below="@+id/showAllButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+</RelativeLayout>
